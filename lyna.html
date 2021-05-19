@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset = "utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>AI in Medicine</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Artificial Intelligence in Medicine</h1>
+
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Main page</a></li>
+                    <li>|</li>
+                    <li><a href="lyna.html">Lymph Node Assistant</a></li>
+                    <li>|</li>
+                    <li><a href="dlad.html">Deep Learning based Automatic Detection</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main">
+            <section class="main-text">
+                <h2>Lymph Node Assistant (LYNA)</h2>
+                <article id="lyna-article">
+                    <figure id="lyna-img">
+                        <img src="resources/lyna.png" alt="Lymph Node Assistant">
+                        <figcaption>
+                            The left panel shows the image fed into an algorithm.<br> 
+                            The right panel shows a region of potentially dangerous<br>cells,
+                            as identified by an algorithm,<br>that a physician should look at more closely.<br> 
+                        </figcaption>
+                    </figure>
+                    <p>&emsp;In the fall of 2018, researchers at Google AI Healthcare created a learning algorithm, 
+                    <mark>LYNA (Lymph Node Assistant)</mark>, that analyzed histology slides stained tissue samples) to identify 
+                    metastatic breast cancer tumors from lymph node biopsies. This is not the first application of AI 
+                    to attempt histology analysis, but interestingly this algorithm could identify suspicious regions 
+                    undistinguishable to the human eye in the biopsy samples given. LYNA was tested on two datasets 
+                    and was shown to accurately classify a sample as cancerous or noncancerous correctly 99% of the time. 
+                    Furthermore, when given to doctors to use in conjunction with their typical analysis of stained tissue samples, 
+                    LYNA halved the average slide review time. This suggests the intriguing potential for assistive technologies 
+                    such as LYNA to reduce the burden of repetitive identification tasks and to allow more time and energy for 
+                    pathologists to focus on other, more challenging clinical and diagnostic tasks. Encouragingly, pathologists 
+                    with LYNA assistance were more accurate than either unassisted pathologists or the LYNA algorithm itself, 
+                    suggesting that people and algorithms can work together effectively to perform better than either alone.<br>
+                    <div class="sources">Sources: 
+                        <ul>
+                            <li>
+                                Yun Liu, Timo Kohlberger, Mohammad Norouzi, George E. Dahl, Jenny L. Smith, Arash Mohtashamian, Niels Olson, Lily H. Peng, 
+                                Jason D. Hipp, Martin C. Stumpe; 
+                                <a href="https://meridian.allenpress.com/aplm/article/143/7/859/10038/Artificial-Intelligence-Based-Breast-Cancer-Nodal">
+                                Artificial Intelligence–Based Breast Cancer Nodal Metastasis Detection: Insights Into the 
+                                Black Box for Pathologists</a>. July 2019.
+                            </li>
+                            <li>
+                                Martin Stumpe, Craig Mermel, Google AI; <a href="https://ai.googleblog.com/2018/10/applying-deep-learning-to-metastatic.html">
+                                Applying Deep Learning to Metastatic Breast Cancer Detection</a>. October 2018.
+                            </li>
+                            <li>
+                                Daniel Greenfield;
+                                <a href="https://sitn.hms.harvard.edu/flash/2019/artificial-intelligence-in-medicine-applications-implications-and-limitations/">
+                                Artificial Intelligence in Medicine: Applications, implications, and limitations</a>. June 2019.
+                            </li>
+                        </ul>
+                    </div> 
+                    <figure id="lyna-gif">
+                       <img src="resources/lyna_gif.gif" alt="Lymph Node Assistant gif"> 
+                       <figcaption>
+                        Left: sample views of a slide containing lymph nodes with a small metastatic breast tumor at progressively higher magnifications.<br> 
+                        Right: the same views when shown with algorithmic “assistance” (LYmph Node Assistant, LYNA) outlining the tumor in cyan.
+                       </figcaption>
+                    </figure>
+                    
+                </article>
+            </section>
+        </div>
+
+        <div class="footer">
+            <h5>© 2021 Bali Niki</h5>
+        </div>
+    </body>
+    </html>
